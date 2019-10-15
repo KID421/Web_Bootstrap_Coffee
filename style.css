@@ -1,0 +1,36 @@
+* {
+    font-family: 微軟正黑體;
+}
+
+body {
+    background-color: rgb(209, 179, 145);
+}
+
+.container {
+    background-color: #eee;
+}
+
+.navbar-collepse {
+    z-index: 10;
+}
+
+.carousel-item img {
+    height: 600px;
+    object-fit: cover;
+}
+
+h1 {
+    font-size: 1.5em;
+}
+
+#product img {
+    height: 300px;
+    object-fit: cover;
+}
+
+footer {
+    height: 100px;
+    line-height: 100px;
+    background-color: rgb(209, 179, 145);
+    color: white;
+}

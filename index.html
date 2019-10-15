@@ -1,0 +1,205 @@
+<!DOCTYPE html>
+<html lang="zh">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
+        integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    <link rel="stylesheet" href="style.css">
+    <title>KID Coffee | 咖啡專賣</title>
+</head>
+
+<body>
+
+    <!-- 內容 -->
+    <div class="container">
+        <!-- 導覽列 -->
+        <nav class="navbar navbar-expand-lg navbar-light bg-light">
+            <a class="navbar-brand" href="#">KID Coffee</a>
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavDropdown"
+                aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNavDropdown">
+                <ul class="navbar-nav">
+                    <li class="nav-item active">
+                        <a class="nav-link" href="#">首頁 <span class="sr-only">(current)</span></a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#product">產品介紹</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#services">服務</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#contact">聯絡我們</a>
+                    </li>
+                </ul>
+            </div>
+        </nav>
+
+        <!-- 輪播 -->
+        <div class="bd-example">
+            <div id="carouselExampleCaptions" class="carousel slide" data-ride="carousel">
+                <ol class="carousel-indicators">
+                    <li data-target="#carouselExampleCaptions" data-slide-to="0" class="active"></li>
+                    <li data-target="#carouselExampleCaptions" data-slide-to="1"></li>
+                    <li data-target="#carouselExampleCaptions" data-slide-to="2"></li>
+                </ol>
+                <div class="carousel-inner">
+                    <div class="carousel-item active">
+                        <img src="./img/coffee1.jpg" class="d-block w-100" alt="...">
+                        <div class="carousel-caption d-none d-md-block">
+                            <h5>與好朋友一同喝杯咖啡</h5>
+                            <p>悠閒地下午，就是要與好朋友一同喝杯咖啡聊是非。</p>
+                        </div>
+                    </div>
+                    <div class="carousel-item">
+                        <img src="./img/coffee2.jpg" class="d-block w-100" alt="...">
+                        <div class="carousel-caption d-none d-md-block">
+                            <h5>寧靜的一杯咖啡</h5>
+                            <p>店內提供寧靜的空間，給想要獨享美好時光的你，來杯咖啡。</p>
+                        </div>
+                    </div>
+                    <div class="carousel-item">
+                        <img src="./img/coffee3.jpg" class="d-block w-100" alt="...">
+                        <div class="carousel-caption d-none d-md-block">
+                            <h5>嚴選咖啡豆</h5>
+                            <p>從種植、挑選、處理、烘焙、研磨，用盡心思所謂您製作的咖啡。</p>
+                        </div>
+                    </div>
+                </div>
+                <a class="carousel-control-prev" href="#carouselExampleCaptions" role="button" data-slide="prev">
+                    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                    <span class="sr-only">Previous</span>
+                </a>
+                <a class="carousel-control-next" href="#carouselExampleCaptions" role="button" data-slide="next">
+                    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                    <span class="sr-only">Next</span>
+                </a>
+            </div>
+        </div>
+
+        <!-- 產品介紹 -->
+        <h1 id="product" class="mt-3 mb-3">產品介紹</h1>
+        <div class="row" id="product">
+            <div class="col-sm-12 col-md-6 col-lg-6 mb-5">
+                <div class="card bg-dark text-white">
+                    <img src="./img/product1.jpg" class="card-img" alt="咖啡 產品">
+                    <div class="card-img-overlay">
+                        <h5 class="card-title">桂圓咖啡</h5>
+                        <p class="card-text">添加了獨特的桂圓粉，香氣十足。</p>
+                        <p class="card-text">$85</p>
+                    </div>
+                </div>
+            </div>
+            <div class="col-sm-12 col-md-6 col-lg-6 mb-5">
+                <div class="card bg-dark text-white">
+                    <img src="./img/product2.jpg" class="card-img" alt="咖啡 產品">
+                    <div class="card-img-overlay">
+                        <h5 class="card-title">黑咖啡</h5>
+                        <p class="card-text">純粹的味道，黑咖啡。</p>
+                        <p class="card-text">$75</p>
+                    </div>
+                </div>
+            </div>
+            <div class="col-sm-12 col-md-6 col-lg-6 mb-5">
+                <div class="card bg-dark text-white">
+                    <img src="./img/product3.jpg" class="card-img" alt="咖啡 產品">
+                    <div class="card-img-overlay">
+                        <h5 class="card-title">拉花拿鐵</h5>
+                        <p class="card-text">奶香味，配上拉花的獨特咖啡。</p>
+                        <p class="card-text">$90</p>
+                    </div>
+                </div>
+            </div>
+            <div class="col-sm-12 col-md-6 col-lg-6 mb-5">
+                <div class="card bg-dark text-white">
+                    <img src="./img/product4.jpg" class="card-img" alt="咖啡 產品">
+                    <div class="card-img-overlay">
+                        <h5 class="card-title">桂圓咖啡</h5>
+                        <p class="card-text">添加了獨特的桂圓粉，香氣十足。</p>
+                        <p class="card-text">$85</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!-- 服務 -->
+        <h1 id="services" class="mt-3 mb-3">服務</h1>
+        <div class="card-deck">
+            <div class="card">
+                <img src="./img/about1.jpg" class="card-img-top" alt="咖啡 關於我們">
+                <div class="card-body">
+                    <h5 class="card-title">甜點</h5>
+                    <p class="card-text">我們也有提供自己製作的甜點讓您可以搭配咖啡。</p>
+                </div>
+            </div>
+            <div class="card">
+                <img src="./img/about2.jpg" class="card-img-top" alt="咖啡 關於我們">
+                <div class="card-body">
+                    <h5 class="card-title">免費充電</h5>
+                    <p class="card-text">店內有提供免費插座可以充電，也有無限 Wifi 唷。
+                    </p>
+                </div>
+            </div>
+            <div class="card">
+                <img src="./img/about3.jpg" class="card-img-top" alt="咖啡 關於我們">
+                <div class="card-body">
+                    <h5 class="card-title">閱讀書籍</h5>
+                    <p class="card-text">店內每個月都會更新書籍，提供您在喝咖啡時還能增長知識。</p>
+                </div>
+            </div>
+        </div>
+
+        <!-- 聯絡我們 -->
+        <h1 id="contact" class="mt-3 mb-3">聯絡我們</h1>
+        <!-- 表單 -->
+        <form>
+            <div class="form-group row">
+                <label for="email" class="col-sm-2 col-form-label col-form-label-sm">信箱</label>
+                <div class="col-sm-10 mb-3">
+                    <input type="email" class="form-control form-control-sm" id="email" placeholder="請輸入您的信箱">
+                </div>
+                <label for="name" class="col-sm-2 col-form-label col-form-label-sm">姓名</label>
+                <div class="col-sm-10 mb-3">
+                    <input type="email" class="form-control form-control-sm" id="name" placeholder="請輸入您的姓名">
+                </div>
+                <label for="message" class="col-sm-2 col-form-label col-form-label-sm">請輸入您想告訴我們的話</label>
+                <div class="col-sm-10">
+                    <textarea class="form-control form-control-sm" id="message" rows="3"></textarea>
+                </div>
+            </div>
+
+            <div class="d-flex justify-content-center p-3">
+                <button type="submit" class="btn btn-primary">送出</button>
+            </div>
+        </form>
+
+        <!-- Google Map -->
+        <iframe
+            src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3617.302906820006!2d121.2222063153778!3d24.955806847574674!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x34682249c750d347%3A0x8cdb28de62e89e3d!2z6LWr57a16Zu76IWm6Kit6KiI5Z-56KiT5a246ZmiLeS4reWjouWtuOmZog!5e0!3m2!1szh-TW!2stw!4v1571132613419!5m2!1szh-TW!2stw"
+            width="100%" height="450" frameborder="0" style="border:0;" allowfullscreen=""></iframe>
+
+
+    </div>
+    
+    <!-- 頁尾 -->
+    <footer class="text-center">
+        KID Coffee &copy; 2019.
+    </footer>
+
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
+        integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
+        crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"
+        integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1"
+        crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"
+        integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM"
+        crossorigin="anonymous"></script>
+</body>
+
+</html>
